@@ -20,5 +20,5 @@ ZSH_THEME_GIT_COMMITS_AHEAD_PREFIX="$GREEN⥣ "
 ZSH_THEME_GIT_PROMPT_AHEAD_REMOTE="$(git_commits_ahead)"
 ZSH_THEME_GIT_COMMITS_AHEAD_SUFFIX="$RESET"
 
-PROMPT='%(?:$WHITE⚡:$RED⚡) '
-PROMPT+='$YELLOW%c $RESET$(git_prompt_info)$RESET ' RPROMPT='$(git_commits_ahead)$(git_commits_behind)$RESET'
+PROMPT='⚡ $YELLOW%c $RESET$(git_prompt_info)$RESET ' 
+RPROMPT='$(git_commits_ahead)$(git_commits_behind)%(?:$WHITE⛛:$RED⛛) $RESET'
