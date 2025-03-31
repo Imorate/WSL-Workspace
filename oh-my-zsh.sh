@@ -24,4 +24,4 @@ cp "$zshrc" "$zshrc_backup"
 
 echo -e "$PREFIX Setting up themes and plugins$NC"
 sed -i 's/^ZSH_THEME="[^"]*"/ZSH_THEME="imozsh"/' "$zshrc"
-sed -i 's/^plugins=([^)]*)/plugins=(git docker docker-compose battery zsh-interactive-cd)/' "$zshrc"
+sed -i 's/^plugins=([^)]*)/plugins=(git docker docker-compose zsh-interactive-cd)/' "$zshrc"
